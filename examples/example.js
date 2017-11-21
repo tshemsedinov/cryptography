@@ -13,9 +13,9 @@ const fc = require('../lib/file-crypt');
 }
 
 // Decrypting file
-{
-  const filename = 'example.txt.encrypt:83';
-  const password = 'password';
+// {
+//   const filename = 'example.txt.encrypt:83';
+//   const password = 'password';
 
-  fc.decryptFile(filename, password);
-}
+//   fc.decryptFile(filename, password);
+// }
