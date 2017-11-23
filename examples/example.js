@@ -15,7 +15,7 @@ if (command === '-e') {
   fc.encryptFile(filename, password, extension, cipher, hash);
 } else if (command === '-d') {
   // Decrypting file
-  const filename = 'example.txt.encrypt:83';
+  const filename = 'example.txt.encrypt';
   const password = 'password';
   fc.decryptFile(filename, password);
 } else {
